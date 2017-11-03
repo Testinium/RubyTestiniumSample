@@ -1,0 +1,1 @@
+To run Ruby test you should use 'ruby test.rb' command.

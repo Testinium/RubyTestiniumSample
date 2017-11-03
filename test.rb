@@ -6,8 +6,8 @@ require "selenium-webdriver"
 client = Selenium::WebDriver::Remote::Http::Default.new
 client.timeout = 600 # seconds.
 
-username = "canberk"
-key = "dc21f489b133c5cc058450eeb195be34"
+username = "TESTINIUMUSER"
+key = "TESTINIUMPASS"
 gridHost = "http://hub.testinium.io/wd/hub"
 caps = Selenium::WebDriver::Remote::Capabilities.chrome(
     :version               => "46",
